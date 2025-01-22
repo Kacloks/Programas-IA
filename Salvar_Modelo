@@ -1,0 +1,2 @@
+def save_model(self, file_name="combat_ai.pth"):
+    torch.save(self.model.state_dict(), file_name)
